@@ -20,9 +20,9 @@ There are a total of 30 Locations. Each location has around 298 - 300 images. Th
 We use Cosine similarity because Cosine similarity is calculated using only the dot product and magnitude of each vector, and is therefore affected only by the terms the two vectors have in common. Cosine thus has some meaningful semantics for ranking similar documents, based on mutual term frequency.
 
 The schema for the first 3 tasks (content of corresponding CSV Files) are stored as below:
-				[Annotations UserID1 UserID2 UserID3]
-				["wicked"      Value   Value   Value]
-                                [......   	....    ....    ....]
+[Annotations UserID1 UserID2 UserID3]
+["wicked"      Value   Value   Value]
+[......   	....    ....    ....]
 
 Check http://skuld.cs.umass.edu/traces/mmsys/2015/paper-5/Div150Cred_readme.txt for information about the dataset.
 
