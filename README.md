@@ -2,13 +2,13 @@
 
 Author: Ashwin Karthik Ambalavanan
 Contributors: 1. Ajay Gunasekaran
-       			  2. Aditya Vikram Sharma
+       	      2. Aditya Vikram Sharma
 
 Download the folder into the C:/ Drive so that all file paths are supported. Download the devset from: http://skuld.cs.umass.edu/traces/mmsys/2015/paper-5.
 
 The codebase is used for finding similarity between users, images and locations from features extracted from a set of images in flickr as given in the link: http://skuld.cs.umass.edu/traces/mmsys/2015/paper-5
 
-Check the detailed description of tasks in the pdf file attached with the project. The task code SHOULD be run in the order described for correct execution. For detailed explanation of the logic used in each of the 5 tasks, check "README_Tasks.txt" in the same folder. 	
+Check the detailed description of tasks in the pdf file attached with the project. The task code SHOULD be run in the order described for correct execution. For detailed explanation of the logic used in each of the 5 tasks, check "Code/README_Tasks.txt". 	
 
 The dataset describes features describing Images taken in Locations that are annotated manually by Users.
 There are two types of features: 
@@ -22,7 +22,7 @@ We use Cosine similarity because Cosine similarity is calculated using only the 
 The schema for the first 3 tasks (content of corresponding CSV Files) are stored as below:
 				[Annotations UserID1 UserID2 UserID3]
 				["wicked"      Value   Value   Value]
-        [......   	    ....    ....    ....]
+                                [......   	....    ....    ....]
 
 Check http://skuld.cs.umass.edu/traces/mmsys/2015/paper-5/Div150Cred_readme.txt for information about the dataset.
 
