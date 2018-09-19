@@ -1,0 +1,1 @@
+Once the code is run, this folder will be filled with all the content required. Make sure to include this folder so that all paths specified in the code are valid.
