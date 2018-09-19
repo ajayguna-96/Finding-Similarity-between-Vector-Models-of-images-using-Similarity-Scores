@@ -1,1 +1,1 @@
-This is just a sample file. Once the code is run, this folder will be filled with all the content required.
+This is just a sample file. Once the code "K_Means_Clustering.py" is run, this folder will be filled with all the content required.
