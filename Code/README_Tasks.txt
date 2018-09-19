@@ -3,7 +3,7 @@ TASK SOLUTION DESCRIPTION
 The schema for the first 3 tasks (content of corresponding CSV Files) are stored as below:
 				[Annotations UserID1 UserID2 UserID3]
 				["wicked"      Value   Value   Value]
-            	[......  	    ....    ....    ....]
+            			[......  	....    ....    ....]
 				
 	At first, all the tasks were performed using PostgreSQL DB. The computation time of the task perfomed using PostgreSQL was found to be significantly longer than that performed using CSV files. Hence, we stuck to using CSV files to store and retrieve data quickly. A NoSQL Document based DB like MongoDB hasn't been tested and has been left to the readers to download the codebase and try to implement the task using MongoDB. Do compare the results and get back to me on how that goes. :)
 
