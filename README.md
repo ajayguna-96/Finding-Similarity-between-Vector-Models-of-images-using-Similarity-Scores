@@ -29,7 +29,6 @@ Check http://skuld.cs.umass.edu/traces/mmsys/2015/paper-5/Div150Cred_readme.txt 
 The "Code" folder contains the entire project
 The "devset" folder contains the text descriptor and the visual descriptor features.
 The "Outputs" folder contains document outputs for each individual task.
-The "Report" describes in detail what has been done in the project.
 
 Description of items in devset Folder:
 	1. devset/desctxt- Has Textual Descriptors (TF, DF, TF-IDF) for grouped for Image, Location and Users.
@@ -41,10 +40,10 @@ Description of items in Code Folder:
 	2. Code/Tasks- Contains the Task code for each task.
 	3. Sample_Inputs_*- Has the inputs required for each task.
 	
-Code/CSV/img_edit- Contains all edited images after clustering which is the output of K_Means_Clustering.py clustering with cluster size 10. These 	
-					files are used in Task 4.
-Code/CSV/img_edit_task5- Contains all edited images after clustering which is the output of K_Means_Clustering_Task_5.py with cluster size 7. These 
-					files are used in Task 5.
+Code/CSV/img_edit- Contains all edited images after clustering which is the output of K_Means_Clustering.py clustering with cluster size 10. These files are used in Task 4. 
+
+Code/CSV/img_edit_task5- Contains all edited images after clustering which is the output of K_Means_Clustering_Task_5.py with cluster size 7. These files are used in Task 5.
+
 Code/CSV/Task_1- Contains 3 CSV files with User Data categorized together based on TF, DF and IDF values.
 Code/CSV/Task_2- Contains 3 CSV files with Image Data categorized together based on TF, DF and IDF values.
 Code/CSV/Task_3- Contains 3 CSV files with Location Data categorized together based on TF, DF and IDF values. It also contains the "devset_textTermsPerPOIEdited.csv" which is the same as "devset_textTermsPerPOI.csv" but with the first couple of word names of locations joined with an "underscore".
